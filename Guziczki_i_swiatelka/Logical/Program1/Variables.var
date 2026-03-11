@@ -1,10 +1,9 @@
 VAR
-	delay_1 : TON;
-	delay_2 : TON;
-	delay_3 : TON;
-	delay_4 : TON;
-	delay_5 : TON;
-	delay_6 : TON;
+	delay_on : TON;
+	delay_off : TON;
+	i : INT;
 	start_delay : BOOL;
 	end_delay : BOOL;
+	j : INT;
+	work : BOOL;
 END_VAR

@@ -1,5 +1,0 @@
-(*Insert your comment here.*)
-VAR
-	New_Variable1 : USINT;
-	New_Variable : USINT;
-END_VAR

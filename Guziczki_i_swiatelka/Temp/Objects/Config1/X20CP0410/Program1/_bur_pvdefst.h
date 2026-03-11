@@ -8,11 +8,10 @@ struct TON
 	plcbit M;
 };
 _BUR_PUBLIC void TON(struct TON* inst);
-_BUR_LOCAL struct TON delay_1;
-_BUR_LOCAL struct TON delay_2;
-_BUR_LOCAL struct TON delay_3;
-_BUR_LOCAL struct TON delay_4;
-_BUR_LOCAL struct TON delay_5;
-_BUR_LOCAL struct TON delay_6;
+_BUR_LOCAL struct TON delay_on;
+_BUR_LOCAL struct TON delay_off;
+_BUR_LOCAL signed short i;
 _BUR_LOCAL plcbit start_delay;
 _BUR_LOCAL plcbit end_delay;
+_BUR_LOCAL signed short j;
+_BUR_LOCAL plcbit work;

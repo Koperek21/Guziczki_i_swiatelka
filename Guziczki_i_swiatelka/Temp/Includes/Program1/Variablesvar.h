@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1773225056_1_
-#define _BUR_1773225056_1_
+#ifndef _BUR_1773230029_4_
+#define _BUR_1773230029_4_
 
 #include <bur/plctypes.h>
 
@@ -16,14 +16,13 @@
 
 
 /* Variables */
+_BUR_LOCAL plcbit work;
+_BUR_LOCAL signed short j;
 _BUR_LOCAL plcbit end_delay;
 _BUR_LOCAL plcbit start_delay;
-_BUR_LOCAL struct TON delay_6;
-_BUR_LOCAL struct TON delay_5;
-_BUR_LOCAL struct TON delay_4;
-_BUR_LOCAL struct TON delay_3;
-_BUR_LOCAL struct TON delay_2;
-_BUR_LOCAL struct TON delay_1;
+_BUR_LOCAL signed short i;
+_BUR_LOCAL struct TON delay_off;
+_BUR_LOCAL struct TON delay_on;
 
 
 __asm__(".section \".plc\"");
@@ -37,5 +36,5 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/standard/standard.fun\\\" scope 
 __asm__(".previous");
 
 
-#endif /* _BUR_1773225056_1_ */
+#endif /* _BUR_1773230029_4_ */
 

@@ -1,0 +1,10 @@
+VAR_CONFIG
+	::input_1 AT %IX."X20DI9371".DigitalInput01;
+	::input_2 AT %IX."X20DI9371".DigitalInput02;
+	output_1  AT %QX."X20cDO6639".DigitalOutput01;
+	output_2 AT %QX."X20cDO6639".DigitalOutput02;
+	output_3 AT %QX."X20cDO6639".DigitalOutput03;
+	output_4  AT %QX."X20cDO6639".DigitalOutput04;
+	output_5 AT %QX."X20cDO6639".DigitalOutput05;
+	output_6  AT %QX."X20cDO6639".DigitalOutput06;
+END_VAR

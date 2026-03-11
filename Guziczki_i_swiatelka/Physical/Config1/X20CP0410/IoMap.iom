@@ -1,0 +1,4 @@
+VAR_CONFIG
+	::input_1 AT %IX."X20DI9371".DigitalInput01;
+	::input_2 AT %IX."X20DI9371".DigitalInput02;
+END_VAR

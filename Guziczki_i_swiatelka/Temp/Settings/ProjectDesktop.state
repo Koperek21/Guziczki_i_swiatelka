@@ -3,9 +3,17 @@
 <Project xmlns="http://br-automation.co.at/AS/Project">
   <Active ID="1934575364" />
   <Configuration Name="Config1" />
-  <ConfigurationFiles ConfigurationName="Config1" ActiveConfigurationFile="\Logical\Program1\Main.st">
-    <ConfigurationFile Placement="\Logical\Program1\Main.st,Program1,2,44,0,1,-1,-1,-1,-1,2,24,1399,682" />
-    <ConfigurationFile Placement="\Logical\Global.var,,1,44,0,1,-1,-1,-1,-1,2,24,1399,682" />
-    <ConfigurationFile Placement="\Logical\Program1\Variables.var,Program1,2,44,0,1,-1,-1,-1,-1,2,24,1399,682" />
+  <ConfigurationFiles ConfigurationName="Config1" ActiveConfigurationFile="\Virtual\X20cDO6639.iom">
+    <ConfigurationFile Placement="\Virtual\X20cDO6639.iom,,1,44,0,1,-1,-1,-1,-1,2,24,1105,685" />
+    <ConfigurationFile Placement="\Virtual\Guziczki_i_swiatelka.ose,,0,44,0,1,-1,-1,-1,-1,2,24,1105,685" />
+    <ConfigurationFile Placement="\Logical\Program1\Main.st,Program1,2,44,0,1,-1,-1,-1,-1,2,24,1105,685" />
+    <ConfigurationFile Placement="\Logical\Global.var,,1,44,0,1,-1,-1,-1,-1,2,24,1105,685" />
+    <ConfigurationFile Placement="\Logical\Program1\Variables.var,Program1,2,44,0,1,-1,-1,-1,-1,2,24,1105,685" />
+    <ConfigurationFile Placement="\Diagnosis\Config1\X20CP0410\$CPU.arl,,0,44,0,1,-1,-1,-1,-1,2,24,1105,685" />
+    <ConfigurationFile Placement="\Virtual\X20DI9371.iom,,1,44,0,1,-1,-1,-1,-1,2,24,1105,685" />
+    <ConfigurationFile Placement="\Virtual\X20cDO6639_a.iom,,1,44,0,1,-1,-1,-1,-1,2,24,1105,685" />
+    <ConfigurationFile Placement="\Virtual\X20DI9371.hw,,1,44,0,1,-1,-1,-1,-1,2,24,1105,685" />
+    <ConfigurationFile Placement="\Virtual\X20cDO6639.hw,,1,44,0,1,-1,-1,-1,-1,2,24,1105,685" />
+    <ConfigurationFile Placement="\Virtual\X20cDO6639_a.hw,,1,44,0,1,-1,-1,-1,-1,2,24,1105,685" />
   </ConfigurationFiles>
 </Project>

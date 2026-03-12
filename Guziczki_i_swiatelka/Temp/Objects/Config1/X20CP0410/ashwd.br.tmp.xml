@@ -1,75 +1,6 @@
 <?xml version="1.0"?>
 <?hwc2hwd version="1.1"?>
 <HWD Version="2.0" xmlns="http://br-automation.com/AR/IO/HWD">
-  <Hardware Family="10" ID="X20BB53" Modno="62673" UseType="2">
-    <Parameter ID="OrderNumber" Value="X20BB53" />
-    <Parameter ID="MergeInfoNode" Value="CPU" />
-    <Parameter ID="Supervision" Value="on" />
-    <Resource ID="CPU" />
-    <Resource ID="IO">
-      <Channel ID="ModuleID_BB">
-        <Parameter ID="Ext" Value="/HW" />
-        <Parameter ID="Address" Value="10" Type="UDINT" />
-        <Parameter ID="Direction" Value="IN" />
-        <Parameter ID="Type" Value="UINT" />
-        <Parameter ID="ChannelType" Value="ModuleID" />
-      </Channel>
-    </Resource>
-    <Resource ID="FPGA">
-      <Resource ID="IF1">
-        <Parameter ID="MemBase0" Value="0x40200800" Type="UDINT" />
-        <Parameter ID="Interrupt" Value="67" Type="UDINT" />
-        <Parameter ID="ClockRate" Value="1843200" Type="UDINT" />
-        <Parameter ID="SupportedModes" Value="0x08" Type="UDINT" />
-        <Parameter ID="HandshakeLines" Value="0x00" Type="UDINT" />
-        <Parameter ID="HwDrv" Value="1" Type="UDINT" />
-        <Parameter ID="FifoSize" Value="16" Type="UDINT" />
-        <Parameter ID="Classcode" Value="0x02000700" Type="UDINT" />
-        <Parameter ID="OfferedBus" Value="RS485" />
-        <Parameter ID="TermSwitchMethod" Value="10" Type="UDINT" />
-        <Parameter ID="IOSuffix" Value="TERMIF1" />
-        <Resource ID="TERMIF1">
-          <Parameter ID="VirtFunc" Value="BASEDEV" />
-          <Parameter ID="Classcode" Value="0x20000022" Type="UDINT" />
-          <Parameter ID="Transparent" Value="1" Type="UDINT" />
-          <Parameter ID="ARIOMaster" Value="1" Type="UDINT" />
-          <Channel ID="TerminatingResistor">
-            <Parameter ID="Ext" Value="/HW" />
-            <Parameter ID="Address" Value="1" Type="UDINT" />
-            <Parameter ID="Direction" Value="IN" />
-            <Parameter ID="Type" Value="BOOL" />
-            <Parameter ID="ChannelType" Value="Statistic" />
-          </Channel>
-        </Resource>
-      </Resource>
-      <Resource ID="IF6">
-        <Parameter ID="BusAddress" Value="0x0" Type="UDINT" />
-        <Parameter ID="OfferedBus" Value="X2XIF" />
-        <Parameter ID="InterfaceType" Value="X2X" />
-        <Parameter ID="MemEnable" Value="0" Type="UDINT" />
-        <Parameter ID="MemEnableIfArio" Value="1" Type="UDINT" />
-        <Parameter ID="MemBase0" Value="0x40100000" Type="UDINT" />
-        <Parameter ID="MemLen0" Value="0x10000" Type="UDINT" />
-        <Parameter ID="MemOffset" Value="0x8000" Type="UDINT" />
-        <Parameter ID="MMIOOffset" Value="0" Type="UDINT" />
-        <Parameter ID="IOSuffix" Value="X2X.BUS" />
-        <Parameter ID="Interrupt" Value="0x41" Type="UDINT" />
-        <Parameter ID="Classcode" Value="0x09800200" Type="UDINT" />
-      </Resource>
-      <Resource ID="PSUART">
-        <Parameter ID="Transparent" Value="1" Type="UDINT" />
-        <Parameter ID="Classcode" Value="0x200000ff" Type="UDINT" />
-        <Parameter ID="DDriverName" Value="DdVxIoX20CPPS" Type="STRING" />
-        <Parameter ID="ARIOMaster" Type="UDINT" Value="1" />
-        <Parameter ID="OfferedBus" Value="PS1" />
-        <Parameter ID="BusPrefix" Value="PS" />
-        <Parameter ID="BusMinSlot" Value="1" Type="UDINT" />
-        <Parameter ID="BusMaxSlot" Value="1" Type="UDINT" />
-        <Slot ID="PS1">
-        </Slot>
-      </Resource>
-    </Resource>
-  </Hardware>
   <Hardware Family="10" ID="X20PS9600" Modno="60163" UseType="3">
     <Parameter ID="OrderNumber" Value="X20PS9600" />
     <Parameter ID="NeededBus" Value="PS1" />
@@ -160,6 +91,75 @@
         <Parameter ID="Direction" Value="OUT" />
         <Parameter ID="Type" Value="BOOL" />
       </Channel>
+    </Resource>
+  </Hardware>
+  <Hardware Family="10" ID="X20BB53" Modno="62673" UseType="2">
+    <Parameter ID="OrderNumber" Value="X20BB53" />
+    <Parameter ID="MergeInfoNode" Value="CPU" />
+    <Parameter ID="Supervision" Value="on" />
+    <Resource ID="CPU" />
+    <Resource ID="IO">
+      <Channel ID="ModuleID_BB">
+        <Parameter ID="Ext" Value="/HW" />
+        <Parameter ID="Address" Value="10" Type="UDINT" />
+        <Parameter ID="Direction" Value="IN" />
+        <Parameter ID="Type" Value="UINT" />
+        <Parameter ID="ChannelType" Value="ModuleID" />
+      </Channel>
+    </Resource>
+    <Resource ID="FPGA">
+      <Resource ID="IF1">
+        <Parameter ID="MemBase0" Value="0x40200800" Type="UDINT" />
+        <Parameter ID="Interrupt" Value="67" Type="UDINT" />
+        <Parameter ID="ClockRate" Value="1843200" Type="UDINT" />
+        <Parameter ID="SupportedModes" Value="0x08" Type="UDINT" />
+        <Parameter ID="HandshakeLines" Value="0x00" Type="UDINT" />
+        <Parameter ID="HwDrv" Value="1" Type="UDINT" />
+        <Parameter ID="FifoSize" Value="16" Type="UDINT" />
+        <Parameter ID="Classcode" Value="0x02000700" Type="UDINT" />
+        <Parameter ID="OfferedBus" Value="RS485" />
+        <Parameter ID="TermSwitchMethod" Value="10" Type="UDINT" />
+        <Parameter ID="IOSuffix" Value="TERMIF1" />
+        <Resource ID="TERMIF1">
+          <Parameter ID="VirtFunc" Value="BASEDEV" />
+          <Parameter ID="Classcode" Value="0x20000022" Type="UDINT" />
+          <Parameter ID="Transparent" Value="1" Type="UDINT" />
+          <Parameter ID="ARIOMaster" Value="1" Type="UDINT" />
+          <Channel ID="TerminatingResistor">
+            <Parameter ID="Ext" Value="/HW" />
+            <Parameter ID="Address" Value="1" Type="UDINT" />
+            <Parameter ID="Direction" Value="IN" />
+            <Parameter ID="Type" Value="BOOL" />
+            <Parameter ID="ChannelType" Value="Statistic" />
+          </Channel>
+        </Resource>
+      </Resource>
+      <Resource ID="IF6">
+        <Parameter ID="BusAddress" Value="0x0" Type="UDINT" />
+        <Parameter ID="OfferedBus" Value="X2XIF" />
+        <Parameter ID="InterfaceType" Value="X2X" />
+        <Parameter ID="MemEnable" Value="0" Type="UDINT" />
+        <Parameter ID="MemEnableIfArio" Value="1" Type="UDINT" />
+        <Parameter ID="MemBase0" Value="0x40100000" Type="UDINT" />
+        <Parameter ID="MemLen0" Value="0x10000" Type="UDINT" />
+        <Parameter ID="MemOffset" Value="0x8000" Type="UDINT" />
+        <Parameter ID="MMIOOffset" Value="0" Type="UDINT" />
+        <Parameter ID="IOSuffix" Value="X2X.BUS" />
+        <Parameter ID="Interrupt" Value="0x41" Type="UDINT" />
+        <Parameter ID="Classcode" Value="0x09800200" Type="UDINT" />
+      </Resource>
+      <Resource ID="PSUART">
+        <Parameter ID="Transparent" Value="1" Type="UDINT" />
+        <Parameter ID="Classcode" Value="0x200000ff" Type="UDINT" />
+        <Parameter ID="DDriverName" Value="DdVxIoX20CPPS" Type="STRING" />
+        <Parameter ID="ARIOMaster" Type="UDINT" Value="1" />
+        <Parameter ID="OfferedBus" Value="PS1" />
+        <Parameter ID="BusPrefix" Value="PS" />
+        <Parameter ID="BusMinSlot" Value="1" Type="UDINT" />
+        <Parameter ID="BusMaxSlot" Value="1" Type="UDINT" />
+        <Slot ID="PS1">
+        </Slot>
+      </Resource>
     </Resource>
   </Hardware>
   <Hardware Family="10" ID="X20DI9371" Modno="7061" UseType="3">
@@ -514,16 +514,15 @@
       </Channel>
     </Resource>
   </Hardware>
-  <Hardware Family="10" ID="X20cDO6639" Modno="57898" UseType="3">
+  <Hardware Family="10" ID="X20DO6639" Modno="57168" UseType="3">
     <Parameter ID="NeededBus" Value="X2X" />
     <Parameter ID="InsertParameter" Value="ARIOMasterBus" />
     <Parameter ID="X2XNodeType" Value="STANDARD" />
-    <Parameter ID="RemoteUpdate" Type="UDINT" Value="1" />
-    <Parameter ID="CanioUsetyp" Type="UDINT" Value="1" />
-    <Parameter ID="CanioLogicalWidth" Type="UDINT" Value="1" />
+    <Parameter ID="RemoteUpdate" Value="1" Type="UDINT" />
+    <Parameter ID="CanioUsetyp" Value="1" Type="UDINT" />
+    <Parameter ID="CanioLogicalWidth" Value="1" Type="UDINT" />
     <Resource ID="IO">
       <Parameter ID="Classcode" Value="0x2000000d" Type="UDINT" />
-      <!-- Hier wird die ChannelDescription durch Merging eingefuegt -->
       <Channel ID="ModuleOk">
         <Parameter ID="Ext" Value="/OK" />
         <Parameter ID="Address" Value="0" Type="UDINT" />

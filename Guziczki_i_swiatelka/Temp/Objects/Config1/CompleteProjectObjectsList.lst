@@ -124,7 +124,7 @@
     Path="C:\Praktyki\Guziczki i swiatelka\Guziczki_i_swiatelka\Logical\Program1\Main.st"
     LogicalPath="Program1.Main.st"
     Type="File"
-    LastWriteTime="134177050352689401"
+    LastWriteTime="134177768644512392"
     Private="false" />
   <Object
     Path="C:\Praktyki\Guziczki i swiatelka\Guziczki_i_swiatelka\Logical\Program1\Types.typ"
@@ -136,7 +136,7 @@
     Path="C:\Praktyki\Guziczki i swiatelka\Guziczki_i_swiatelka\Logical\Program1\Variables.var"
     LogicalPath="Program1.Variables.var"
     Type="File"
-    LastWriteTime="134177034256038128"
+    LastWriteTime="134177738760746171"
     Private="true" />
   <Object
     Path="C:\Praktyki\Guziczki i swiatelka\Guziczki_i_swiatelka\Physical\Config1\Config.pkg"
@@ -147,7 +147,7 @@
     Path="C:\Praktyki\Guziczki i swiatelka\Guziczki_i_swiatelka\Physical\Config1\Hardware.hw"
     LogicalPath="Config1.Hardware.hw"
     Type="File"
-    LastWriteTime="134176987106380768"
+    LastWriteTime="134177765153529770"
     Private="false" />
   <Object
     Path="C:\Praktyki\Guziczki i swiatelka\Guziczki_i_swiatelka\Physical\Config1\Hardware.hwl"
@@ -159,7 +159,7 @@
     Path="C:\Praktyki\Guziczki i swiatelka\Guziczki_i_swiatelka\Physical\Config1\X20CP0410\Cpu.pkg"
     LogicalPath="Config1.X20CP0410"
     Type="Cpu"
-    LastWriteTime="134176899065994709" />
+    LastWriteTime="134177740487457784" />
   <Object
     Path="C:\Praktyki\Guziczki i swiatelka\Guziczki_i_swiatelka\Physical\Config1\X20CP0410\Cpu.sw"
     LogicalPath="Config1.X20CP0410.Cpu.sw"
@@ -176,7 +176,7 @@
     Path="C:\Praktyki\Guziczki i swiatelka\Guziczki_i_swiatelka\Physical\Config1\X20CP0410\IoMap.iom"
     LogicalPath="Config1.X20CP0410.IoMap.iom"
     Type="File"
-    LastWriteTime="134176920685841688"
+    LastWriteTime="134177764609144583"
     Private="false" />
   <Object
     Path="C:\Praktyki\Guziczki i swiatelka\Guziczki_i_swiatelka\Physical\Config1\X20CP0410\PvMap.vvm"

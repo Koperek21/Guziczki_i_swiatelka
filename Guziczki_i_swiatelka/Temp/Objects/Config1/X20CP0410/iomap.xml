@@ -2,6 +2,51 @@
 <?AutomationRuntimeIOSystem Version="1.0"?>
 <IO xmlns="http://www.br-automation.com/AR/IO">
 <Links>
+<LN ID="%ID.SerialNumber_CPU" Type="UDINT">
+<Prod Device="$root" DPName="SerialNumber_CPU" Kind="io"/>
+</LN>
+<LN ID="%IW.ModuleID_CPU" Type="UINT">
+<Prod Device="$root" DPName="ModuleID_CPU" Kind="io"/>
+</LN>
+<LN ID="%IW.HardwareVariant" Type="UINT">
+<Prod Device="$root" DPName="HardwareVariant" Kind="io"/>
+</LN>
+<LN ID="%IW.FirmwareVersion" Type="UINT">
+<Prod Device="$root" DPName="FirmwareVersion" Kind="io"/>
+</LN>
+<LN ID="%IW.StorageWear" Type="UINT">
+<Prod Device="$root" DPName="StorageWear" Kind="io"/>
+</LN>
+<LN ID="%IW.TemperatureCPU" Type="INT">
+<Prod Device="$root" DPName="TemperatureCPU" Kind="io"/>
+</LN>
+<LN ID="%IW.TemperatureENV" Type="INT">
+<Prod Device="$root" DPName="TemperatureENV" Kind="io"/>
+</LN>
+<LN ID="%ID.SystemTime" Type="DINT">
+<Prod Device="$root" DPName="SystemTime" Kind="io"/>
+</LN>
+<LN ID="%IX.PS1.ModuleOk" Type="BOOL">
+<Prod Device="PS1" DPName="ModuleOk" Kind="io"/>
+</LN>
+<LN ID="%ID.PS1.SerialNumber" Type="UDINT">
+<Prod Device="PS1" DPName="SerialNumber" Kind="io"/>
+</LN>
+<LN ID="%IW.PS1.ModuleID" Type="UINT">
+<Prod Device="PS1" DPName="ModuleID" Kind="io"/>
+</LN>
+<LN ID="%IW.PS1.HardwareVariant" Type="UINT">
+<Prod Device="PS1" DPName="HardwareVariant" Kind="io"/>
+</LN>
+<LN ID="%IW.PS1.FirmwareVersion" Type="UINT">
+<Prod Device="PS1" DPName="FirmwareVersion" Kind="io"/>
+</LN>
+<LN ID="%IX.PS1.StatusInput01" Type="BOOL">
+<Prod Device="PS1" DPName="StatusInput01" Kind="io"/>
+</LN>
+<LN ID="%IX.PS1.StatusInput02" Type="BOOL">
+<Prod Device="PS1" DPName="StatusInput02" Kind="io"/>
+</LN>
 <LN ID="%IW.ModuleID_BB" Type="UINT">
 <Prod Device="$root" DPName="ModuleID_BB" Kind="io"/>
 </LN>
@@ -94,51 +139,6 @@
 </LN>
 <LN ID="%ID.IF6.BusLengthConfigured" Type="DINT">
 <Prod Device="$root" DPName="IF6.BusLengthConfigured" Kind="io"/>
-</LN>
-<LN ID="%ID.SerialNumber_CPU" Type="UDINT">
-<Prod Device="$root" DPName="SerialNumber_CPU" Kind="io"/>
-</LN>
-<LN ID="%IW.ModuleID_CPU" Type="UINT">
-<Prod Device="$root" DPName="ModuleID_CPU" Kind="io"/>
-</LN>
-<LN ID="%IW.HardwareVariant" Type="UINT">
-<Prod Device="$root" DPName="HardwareVariant" Kind="io"/>
-</LN>
-<LN ID="%IW.FirmwareVersion" Type="UINT">
-<Prod Device="$root" DPName="FirmwareVersion" Kind="io"/>
-</LN>
-<LN ID="%IW.StorageWear" Type="UINT">
-<Prod Device="$root" DPName="StorageWear" Kind="io"/>
-</LN>
-<LN ID="%IW.TemperatureCPU" Type="INT">
-<Prod Device="$root" DPName="TemperatureCPU" Kind="io"/>
-</LN>
-<LN ID="%IW.TemperatureENV" Type="INT">
-<Prod Device="$root" DPName="TemperatureENV" Kind="io"/>
-</LN>
-<LN ID="%ID.SystemTime" Type="DINT">
-<Prod Device="$root" DPName="SystemTime" Kind="io"/>
-</LN>
-<LN ID="%IX.PS1.ModuleOk" Type="BOOL">
-<Prod Device="PS1" DPName="ModuleOk" Kind="io"/>
-</LN>
-<LN ID="%ID.PS1.SerialNumber" Type="UDINT">
-<Prod Device="PS1" DPName="SerialNumber" Kind="io"/>
-</LN>
-<LN ID="%IW.PS1.ModuleID" Type="UINT">
-<Prod Device="PS1" DPName="ModuleID" Kind="io"/>
-</LN>
-<LN ID="%IW.PS1.HardwareVariant" Type="UINT">
-<Prod Device="PS1" DPName="HardwareVariant" Kind="io"/>
-</LN>
-<LN ID="%IW.PS1.FirmwareVersion" Type="UINT">
-<Prod Device="PS1" DPName="FirmwareVersion" Kind="io"/>
-</LN>
-<LN ID="%IX.PS1.StatusInput01" Type="BOOL">
-<Prod Device="PS1" DPName="StatusInput01" Kind="io"/>
-</LN>
-<LN ID="%IX.PS1.StatusInput02" Type="BOOL">
-<Prod Device="PS1" DPName="StatusInput02" Kind="io"/>
 </LN>
 <LN ID="%IX.IF6.ST1.ModuleOk" Type="BOOL">
 <Prod Device="IF6.ST1" DPName="ModuleOk" Kind="io"/>

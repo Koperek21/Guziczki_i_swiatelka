@@ -11,14 +11,18 @@ PROGRAM _CYCLIC
 	IF input_1 AND input_2 THEN
 		
 		work := TRUE;
+	ELSE 
+			work := FALSE;
 	END_IF
+	
+
+	
 	
 	IF NOT work THEN
 		start_delay :=FALSE;
-		end_delay := FALSE;
 	END_IF;
-	IF work THEN
-		start_delay;
+	IF work = TRUE THEN
+		start_delay := TRUE;
 	END_IF;
 	
 	IF work = FALSE THEN
@@ -30,10 +34,10 @@ PROGRAM _CYCLIC
 		output_6 := FALSE;
 	END_IF;
 	
-	delay_on(IN :=start_delay,PT := T#1s);//zagarek do w³anczania
+	delay(IN:=start_delay,PT:= T#2s);//zagarek do w³anczania
 	
-	IF delay_on.Q AND delay_off.Q = FALSE THEN
-		delay_on(IN := start_delay);
+	IF delay.Q = TRUE THEN
+		delay(IN := FALSE);
 		i := i+1;
 	END_IF;
 	
@@ -50,40 +54,47 @@ PROGRAM _CYCLIC
 			output_5 := TRUE;
 		6:
 			output_6 := TRUE;
+		7:
+			output_6 := FALSE;
+		8:
+			output_5 := FALSE;
+		9:
+			output_4 := FALSE;
+		10:
+			output_3 := FALSE;
+		11:
+			output_2 := FALSE;
+		12:
+			output_1 := FALSE;
 			i:=0;
 
 	END_CASE; 
-	
-	IF output_6 THEN
-		end_delay := TRUE;
-		
-	END_IF;
-	
-	delay_off(IN :=end_delay,PT :=T#1s);//zagarek do wy³anczania
-	
-	IF delay_off.Q AND delay_on.Q = FALSE THEN
-		delay_off(IN:=TRUE);
-		j := j+1;
-	END_IF;
-	
-	CASE j OF//case do w³anczania
-		1:
-			output_6 := FALSE;
-		2:
-			output_5 := FALSE;
-		3:
-			output_4 := FALSE;
-		4:
-			output_3 := FALSE;
-		5:
-			output_2 := FALSE;
-		6:
-			output_1 := FALSE;
-			j := 0;
 
-	END_CASE;
+//	END_IF;
 	
-	//	output_2 := INT_TO_BOOL(i/3);
+//	delay_off(IN :=end_delay,PT :=T#1s);//zagarek do wy³anczania
+	
+//	IF delay_off.Q AND delay_on.Q = FALSE THEN
+//		delay_off(IN:=TRUE);
+//		j := j+1;
+//	END_IF;
+//	
+//	CASE j OF//case do w³anczania
+//		1:
+//			output_6 := FALSE;
+//		2:
+//			output_5 := FALSE;
+//		3:
+//			output_4 := FALSE;
+//		4:
+//			output_3 := FALSE;
+//		5:
+//			output_2 := FALSE;
+//		6:
+//			output_1 := FALSE;
+//			j := 0;
+//
+//	END_CASE;
 
 END_PROGRAM
 

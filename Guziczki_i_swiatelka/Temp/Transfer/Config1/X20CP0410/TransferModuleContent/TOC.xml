@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Toc Version="2" MinorVersion="0">
+	<Application>
+		<Class Name="Os">
+			<Folder Name="BRM" ProjectDependent="1" IgnoreDifference="0">
+				<File Name="@cfX20CP04xx.br" Size="3876" HashValue="8E04D38D3E23FB70485D4D00CA88CB4D" ProjectDependent="1" IgnoreDifference="0" />
+				<File Name="@sbX20CP04xx.br" Size="1636" HashValue="1AD5A1C59BAA5CD43AC25D919E38314C" ProjectDependent="1" IgnoreDifference="0" />
+			</Folder>
+			<Folder Name="SYSTEM" ProjectDependent="1" IgnoreDifference="0">
+				<Folder Name="BASE" ProjectDependent="1" IgnoreDifference="0">
+					<Folder Name="COMPONENTS" ProjectDependent="1" IgnoreDifference="0">
+						<File Name="ArLcTextP.br" Size="308896" HashValue="AA656FE01733E45E167CA1C232DC9D89" ProjectDependent="1" IgnoreDifference="0" />
+						<File Name="ArUnitSys.br" Size="289856" HashValue="A3084AA785449D929AC171243D5EB985" ProjectDependent="1" IgnoreDifference="0" />
+						<File Name="UaCore.br" Size="2022216" HashValue="EA0D532AF92264AE1F9F3FE9E679BE34" ProjectDependent="1" IgnoreDifference="0" />
+					</Folder>
+					<Folder Name="FW" ProjectDependent="1" IgnoreDifference="0">
+						<File Name="0030#0.bl.gz" Size="34359" HashValue="4E89C62BBDA9586923F8E899686E821A" ProjectDependent="1" IgnoreDifference="0" />
+					</Folder>
+					<Folder Name="HWD" ProjectDependent="1" IgnoreDifference="0">
+						<File Name="AsHwdhw_upl.xml.gz" Size="11758" HashValue="0092DE566642396D78242912E5A3A0B6" ProjectDependent="1" IgnoreDifference="0" />
+						<File Name="AsHwdx90cp.xml.gz" Size="18258" HashValue="AAC48EF78BA2644DC1D0D7DE11514AF0" ProjectDependent="1" IgnoreDifference="0" />
+					</Folder>
+				</Folder>
+				<Folder Name="DKM" ProjectDependent="1" IgnoreDifference="0">
+					<File Name="dkm_scm.out" Size="160952" HashValue="EF56EE8DDE2F0C161B71EFCD2B501A76" ProjectDependent="1" IgnoreDifference="0" />
+					<File Name="dkms.xml" Size="106" HashValue="F2609E746FB479B56AAC55A54C55FADD" ProjectDependent="1" IgnoreDifference="0" />
+					<File Name="gdbserver.out" Size="283944" HashValue="A8C512084B25401A7F02060C085EEA8D" ProjectDependent="1" IgnoreDifference="0" />
+				</Folder>
+				<Folder Name="SDM" ProjectDependent="1" IgnoreDifference="0">
+					<File Name="arsdm.tar.gz" Size="561141" HashValue="361CA8A1F64DA0BB807FE6613A2A1D19" ProjectDependent="1" IgnoreDifference="0" />
+				</Folder>
+				<Folder Name="TOC" ProjectDependent="1" IgnoreDifference="0">
+					<File Name="ftoc.xml" Size="185" HashValue="21AA151C10D0BAB8B150EF7AB3B4C213" ProjectDependent="1" IgnoreDifference="0" />
+				</Folder>
+				<Folder Name="WEBSERV" ProjectDependent="1" IgnoreDifference="0">
+					<File Name="ArWebServ.br" Size="85140" HashValue="6F81509ABF36D2B8CEFE7947D3830BD0" ProjectDependent="1" IgnoreDifference="0" />
+				</Folder>
+			</Folder>
+		</Class>
+		<Memory Name="SYSROM">
+			<Module Name="::$$sysconf" Type="129" Size="87356" Modified="2026-03-12 08:33:53" Version="1.0.0.0" ProjectDependent="1" Reboot="1" />
+			<Module Name="::TCData" Type="209" Size="3523560" Modified="2026-03-12 08:33:52" Version="1.0.0.0" ProjectDependent="1" />
+			<Module Name="::arconfig" Type="132" Size="3620" Modified="2026-03-12 09:08:52" Version="1.0.0.0" ProjectDependent="1" Reboot="1" />
+			<Module Name="::asfw" Type="67" Size="929324" Modified="2026-03-12 09:08:53" Version="1.0.0.0" ProjectDependent="1" Reboot="1" />
+			<Module Name="::ashwd" Type="67" Size="2844" Modified="2026-03-12 09:08:53" Version="1.0.0.0" ProjectDependent="1" Reboot="1" />
+		</Memory>
+		<Memory Name="USERROM">
+			<Module Name="::AsIecCon" Type="18" Size="6188" Modified="2025-12-04 08:28:34" Version="6.5.1.0" ProjectDependent="1" />
+			<Module Name="::BRRole" Type="136" Size="1364" Modified="2026-03-12 08:33:54" Version="1.0.0.0" ProjectDependent="1" />
+			<Module Name="::FWRules" Type="136" Size="480" Modified="2026-03-12 08:33:54" Version="1.0.0.0" ProjectDependent="1" />
+			<Module Name="::Program1" Type="17" Size="4052" Modified="2026-03-12 09:14:33" Version="1.0.0.0" ProjectDependent="1" />
+			<Module Name="::UaCsConfig" Type="136" Size="5868" Modified="2026-03-12 08:33:54" Version="6.0.0.0" ProjectDependent="1" Reboot="1" />
+			<Module Name="::ashwac" Type="136" Size="236" Modified="2026-03-12 08:33:54" Version="1.0.0.0" ProjectDependent="1" />
+			<Module Name="::iomap" Type="50" Size="15460" Modified="2026-03-12 09:08:52" Version="1.0.0.0" ProjectDependent="1" />
+			<Module Name="::runtime" Type="18" Size="22548" Modified="2025-12-04 08:30:48" Version="6.5.1.0" ProjectDependent="1" />
+			<Module Name="::standard" Type="18" Size="8304" Modified="2025-12-04 08:31:06" Version="6.5.1.0" ProjectDependent="1" />
+			<Module Name="::udbdef" Type="210" Size="70288" Modified="2023-06-15 15:47:03" Version="0.1.0.0" ProjectDependent="1" />
+		</Memory>
+	</Application>
+</Toc>

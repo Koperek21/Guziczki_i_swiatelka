@@ -39,6 +39,15 @@
     <Connection Connector="SS1" TargetModule="X20TB12_a" TargetConnector="SS" />
     <Connection Connector="SL" TargetModule="X20BM11" TargetConnector="SL1" />
   </Module>
+  <Module Name="X20DO6639" Type="X20DO6639" Version="1.2.2.0">
+    <Connection Connector="SS1" TargetModule="X20TB32" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20cBM12" TargetConnector="SL1" />
+  </Module>
+  <Module Name="X20DO6639_a" Type="X20DO6639" Version="1.2.2.0">
+    <Connection Connector="SS1" TargetModule="X20TB32_a" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20cBM12_a" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
   <Module Name="X20PS9600" Type="X20PS9600" Version="1.6.2.0">
     <Connection Connector="PS" TargetModule="X20BB53" TargetConnector="PS1" />
     <Connection Connector="SS1" TargetModule="X20TB12" TargetConnector="SS" />
@@ -52,13 +61,5 @@
   </Module>
   <Module Name="X20cBM12_a" Type="X20cBM12" Version="1.1.0.0">
     <Connection Connector="X2X1" TargetModule="X20cBM12" TargetConnector="X2X2" />
-  </Module>
-  <Module Name="X20cDO6639" Type="X20cDO6639" Version="1.2.1.0">
-    <Connection Connector="SS1" TargetModule="X20TB32" TargetConnector="SS" />
-    <Connection Connector="SL" TargetModule="X20cBM12" TargetConnector="SL1" />
-  </Module>
-  <Module Name="X20cDO6639_a" Type="X20cDO6639" Version="1.2.1.0">
-    <Connection Connector="SS1" TargetModule="X20TB32_a" TargetConnector="SS" />
-    <Connection Connector="SL" TargetModule="X20cBM12_a" TargetConnector="SL1" />
   </Module>
 </Hardware>

@@ -44,22 +44,22 @@
     <Parameter ID="InputFilter" Value="10" Type="USINT" />
     <Parameter ID="DigitalInputsPacked" Value="off" />
   </Module>
-  <Module ID="IF6.ST2" Hardware="X20cDO6639">
-    <Parameter ID="HardwareModuleName" Value="X20cDO6639" />
+  <Module ID="IF6.ST2" Hardware="X20DO6639">
+    <Parameter ID="HardwareModuleName" Value="X20DO6639" />
   </Module>
-  <Module ID="IF6.ST2.IO" Hardware="X20cDO6639">
+  <Module ID="IF6.ST2.IO" Hardware="X20DO6639">
     <Parameter ID="FunctionModel" Value="Standard" />
     <Parameter ID="FunctionModelNumber" Value="0" Type="USINT" />
     <Parameter ID="Supervision" Value="on" />
     <Parameter ID="DigitalOutputsPacked" Value="off" />
   </Module>
-  <Module ID="IF6.ST3" Hardware="X20cDO6639">
-    <Parameter ID="HardwareModuleName" Value="X20cDO6639_a" />
+  <Module ID="IF6.ST3" Hardware="X20DO6639">
+    <Parameter ID="HardwareModuleName" Value="X20DO6639_a" />
   </Module>
-  <Module ID="IF6.ST3.IO" Hardware="X20cDO6639">
+  <Module ID="IF6.ST3.IO" Hardware="X20DO6639">
     <Parameter ID="FunctionModel" Value="Standard" />
     <Parameter ID="FunctionModelNumber" Value="0" Type="USINT" />
-    <Parameter ID="Supervision" Value="on" />
+    <Parameter ID="Supervision" Value="off" />
     <Parameter ID="DigitalOutputsPacked" Value="off" />
   </Module>
   <Module ID="PS1" Hardware="X20PS9600">

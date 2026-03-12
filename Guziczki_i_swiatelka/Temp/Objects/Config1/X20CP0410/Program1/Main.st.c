@@ -18,11 +18,11 @@ void _CYCLIC __BUR__ENTRY_CYCLIC_FUNCT__(void){{
 if((input_1&input_2)){
 
 (work=1);
-}
-
-if(((((unsigned long)(unsigned char)input_1==(unsigned long)(unsigned char)0))|(((unsigned long)(unsigned char)input_2==(unsigned long)(unsigned char)0)))){
+}else{
 (work=0);
 }
+
+
 
 
 if((work^1)){
@@ -103,7 +103,7 @@ case 1:{
 
 
 
-}imp1_case6_11:imp1_endcase6_0:;}
+}imp1_case5_11:imp1_endcase5_0:;}
 #line 99 "C:/Praktyki/Guziczki i swiatelka/Guziczki_i_swiatelka/Logical/Program1/Main.nodebug"
 #line 101 "C:/Praktyki/Guziczki i swiatelka/Guziczki_i_swiatelka/Logical/Program1/Main.st"
 void _EXIT __BUR__ENTRY_EXIT_FUNCT__(void){{
@@ -131,5 +131,7 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/AsIecCon/AsIecCon.var\\\" scope 
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/standard/standard.var\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Program1/Types.typ\\\" scope \\\"local\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Program1/Variables.var\\\" scope \\\"local\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Program1/LocalFunctions.fun\\\" scope \\\"local\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"C:/Praktyki/Guziczki i swiatelka/Guziczki_i_swiatelka/Temp/Objects/Config1/X20CP0410/Program1/Main.st.var\\\" scope \\\"local\\\"\\n\"");
+__asm__(".ascii \"plc_iec_localfub \\\"PWM\\\"\\n\"");
 __asm__(".previous");

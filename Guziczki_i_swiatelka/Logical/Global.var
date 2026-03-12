@@ -1,6 +1,7 @@
 VAR
 	input_1 : BOOL;
 	input_2 : BOOL;
+	input_3 : BOOL;
 	output_1 : BOOL;
 	output_2 : BOOL;
 	output_3 : BOOL;

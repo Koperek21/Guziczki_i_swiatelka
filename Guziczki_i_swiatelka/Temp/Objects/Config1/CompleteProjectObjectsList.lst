@@ -119,12 +119,12 @@
     Path="C:\Praktyki\Guziczki i swiatelka\Guziczki_i_swiatelka\Logical\Program1\IEC.prg"
     LogicalPath="Program1"
     Type="Program"
-    LastWriteTime="134176957689230557" />
+    LastWriteTime="134177790560805442" />
   <Object
     Path="C:\Praktyki\Guziczki i swiatelka\Guziczki_i_swiatelka\Logical\Program1\Main.st"
     LogicalPath="Program1.Main.st"
     Type="File"
-    LastWriteTime="134177768644512392"
+    LastWriteTime="134177769494358182"
     Private="false" />
   <Object
     Path="C:\Praktyki\Guziczki i swiatelka\Guziczki_i_swiatelka\Logical\Program1\Types.typ"
@@ -138,6 +138,18 @@
     Type="File"
     LastWriteTime="134177738760746171"
     Private="true" />
+  <Object
+    Path="C:\Praktyki\Guziczki i swiatelka\Guziczki_i_swiatelka\Logical\Program1\LocalFunctions.fun"
+    LogicalPath="Program1.LocalFunctions.fun"
+    Type="File"
+    LastWriteTime="134177823547110702"
+    Private="true" />
+  <Object
+    Path="C:\Praktyki\Guziczki i swiatelka\Guziczki_i_swiatelka\Logical\Program1\PWM.st"
+    LogicalPath="Program1.PWM.st"
+    Type="File"
+    LastWriteTime="134177823657980980"
+    Private="false" />
   <Object
     Path="C:\Praktyki\Guziczki i swiatelka\Guziczki_i_swiatelka\Physical\Config1\Config.pkg"
     LogicalPath="Config1"

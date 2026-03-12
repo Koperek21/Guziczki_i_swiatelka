@@ -20,6 +20,10 @@
         Path="C:\Praktyki\Guziczki i swiatelka\Guziczki_i_swiatelka\Logical\Program1\Types.typ" />
       <File
         Path="C:\Praktyki\Guziczki i swiatelka\Guziczki_i_swiatelka\Logical\Program1\Variables.var" />
+      <File
+        Path="C:\Praktyki\Guziczki i swiatelka\Guziczki_i_swiatelka\Logical\Program1\LocalFunctions.fun" />
+      <InternalFile
+        Path="C:\Praktyki\Guziczki i swiatelka\Guziczki_i_swiatelka\Temp\Objects\Config1\X20CP0410\Program1\PWM.st.var" />
     </Task>
   </TaskClass>
   <TaskClass

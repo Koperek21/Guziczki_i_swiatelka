@@ -7,6 +7,5 @@
     <File Description="Local variables" Private="true">Variables.var</File>
     <File Private="true">LocalFunctions.fun</File>
     <File>PWM.st</File>
-    <File>Cyclic.st</File>
   </Files>
 </Program>

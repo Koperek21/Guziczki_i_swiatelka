@@ -77,40 +77,21 @@ case 1:{
 
 }break;}
 
+(PWM_1.duty_cycle=30);;(PWM_1.period=(1000));;(PWM_1.input_PWM=input_3);;PWM(&PWM_1);
 
+if((((unsigned long)(unsigned char)PWM_1.out==(unsigned long)(unsigned char)1))){
+(output_5=1);
+(output_6=1);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}imp1_case5_11:imp1_endcase5_0:;}
-#line 99 "C:/Praktyki/Guziczki i swiatelka/Guziczki_i_swiatelka/Logical/Program1/Main.nodebug"
-#line 101 "C:/Praktyki/Guziczki i swiatelka/Guziczki_i_swiatelka/Logical/Program1/Main.st"
+}imp1_else6_0:imp1_end6_0:;}
+#line 80 "C:/Praktyki/Guziczki i swiatelka/Guziczki_i_swiatelka/Logical/Program1/Main.nodebug"
+#line 82 "C:/Praktyki/Guziczki i swiatelka/Guziczki_i_swiatelka/Logical/Program1/Main.st"
 void _EXIT __BUR__ENTRY_EXIT_FUNCT__(void){{
 
 
 }}
-#line 104 "C:/Praktyki/Guziczki i swiatelka/Guziczki_i_swiatelka/Logical/Program1/Main.nodebug"
+#line 85 "C:/Praktyki/Guziczki i swiatelka/Guziczki_i_swiatelka/Logical/Program1/Main.nodebug"
 
 void __AS__ImplInitMain_st(void){__BUR__ENTRY_INIT_FUNCT__();}
 

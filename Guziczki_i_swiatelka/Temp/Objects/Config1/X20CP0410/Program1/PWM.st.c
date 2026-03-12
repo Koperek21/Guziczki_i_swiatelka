@@ -8,16 +8,24 @@
 void PWM(struct PWM* inst){struct PWM* __inst__=inst;{
 
 (__inst__->time_on=(plctime)(((float)__inst__->period*(__inst__->duty_cycle/100))>=0.0?((float)__inst__->period*(__inst__->duty_cycle/100))+0.5:((float)__inst__->period*(__inst__->duty_cycle/100))-0.5));
-(__inst__->time_off=(plctime)((__inst__->duty_cycle-(float)__inst__->time_on)>=0.0?(__inst__->duty_cycle-(float)__inst__->time_on)+0.5:(__inst__->duty_cycle-(float)__inst__->time_on)-0.5));
+(__inst__->time_off=((plctime)((signed short)(__inst__->duty_cycle>=0.0?__inst__->duty_cycle+0.5:__inst__->duty_cycle-0.5)-(signed short)__inst__->time_on)<0?-((plctime)((signed short)(__inst__->duty_cycle>=0.0?__inst__->duty_cycle+0.5:__inst__->duty_cycle-0.5)-(signed short)__inst__->time_on)):(plctime)((signed short)(__inst__->duty_cycle>=0.0?__inst__->duty_cycle+0.5:__inst__->duty_cycle-0.5)-(signed short)__inst__->time_on)));
 
-(__inst__->timer_off.IN=(__inst__->timer_on.Q^1));;(__inst__->timer_off.PT=__inst__->time_off);;TON(&__inst__->timer_off);
-(__inst__->timer_on.IN=__inst__->timer_off.Q);;(__inst__->timer_on.PT=__inst__->time_on);;TON(&__inst__->timer_on);
-if((((unsigned long)(unsigned char)__inst__->timer_on.Q==(unsigned long)(unsigned char)1))){
-(__inst__->output_Pwn=1);
+(__inst__->timer_off.IN=(__inst__->input_PWM&(__inst__->timer_on.Q^1)));;(__inst__->timer_off.PT=__inst__->time_off);;TON(&__inst__->timer_off);
+(__inst__->timer_on.IN=(__inst__->input_PWM&__inst__->timer_off.Q));;(__inst__->timer_on.PT=__inst__->time_on);;TON(&__inst__->timer_on);
+
+if(__inst__->input_PWM){
+if(((__inst__->duty_cycle<=0))){
+(__inst__->out=0);
+}else if(((__inst__->duty_cycle>=100))){
+(__inst__->out=1);
+}else{
+(__inst__->out=__inst__->timer_off.Q);
 }
-
-}imp1_else0_0:imp1_end0_0:;}
-#line 14 "C:/Praktyki/Guziczki i swiatelka/Guziczki_i_swiatelka/Logical/Program1/PWM.nodebug"
+}else{
+(__inst__->out=0);
+}
+}imp1_end0_0:;}
+#line 22 "C:/Praktyki/Guziczki i swiatelka/Guziczki_i_swiatelka/Logical/Program1/PWM.nodebug"
 
 void __AS__ImplInitPWM_st(void){}
 

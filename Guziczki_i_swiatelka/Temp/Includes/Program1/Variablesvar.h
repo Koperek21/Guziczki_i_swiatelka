@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1773300699_4_
-#define _BUR_1773300699_4_
+#ifndef _BUR_1773317924_4_
+#define _BUR_1773317924_4_
 
 #include <bur/plctypes.h>
 
@@ -16,8 +16,8 @@
 
 
 /* Variables */
+_BUR_LOCAL struct PWM PWM_1;
 _BUR_LOCAL plcbit work;
-_BUR_LOCAL signed short j;
 _BUR_LOCAL plcbit start_delay;
 _BUR_LOCAL signed short i;
 _BUR_LOCAL struct TON delay;
@@ -34,5 +34,5 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/standard/standard.fun\\\" scope 
 __asm__(".previous");
 
 
-#endif /* _BUR_1773300699_4_ */
+#endif /* _BUR_1773317924_4_ */
 

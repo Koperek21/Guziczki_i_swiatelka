@@ -1,0 +1,9 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=Program1 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=200 Type=100 Scope=60 Force=60 Index=4 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                                   PWM_1                                      PWM    0 "                                                               *"    0   24    1    0    1    1         
+                               input_PWM                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                                     out                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                 time_on                                     TIME    0 "                                                         T#300ms"    1   12    1    1    0    0         
+                                time_off                                     TIME    0 "                                                        T#-270ms"    1   12    1    1    0    0         
+                               timer_off                                      TON    0 "                                                               *"    1   24    1    0    0    0         

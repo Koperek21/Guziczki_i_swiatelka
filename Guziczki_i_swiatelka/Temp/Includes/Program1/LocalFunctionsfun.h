@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1773308784_1_
-#define _BUR_1773308784_1_
+#ifndef _BUR_1773317924_5_
+#define _BUR_1773317924_5_
 
 #include <bur/plctypes.h>
 
@@ -12,12 +12,15 @@ typedef struct PWM
 	/* VAR_INPUT (analog) */
 	float duty_cycle;
 	plctime period;
+	/* VAR (analog) */
 	plctime time_on;
 	plctime time_off;
 	struct TON timer_on;
 	struct TON timer_off;
+	/* VAR_INPUT (digital) */
+	plcbit input_PWM;
 	/* VAR_OUTPUT (digital) */
-	plcbit output_Pwn;
+	plcbit out;
 } PWM_typ;
 
 
@@ -39,5 +42,5 @@ __asm__(".ascii \"iecfile \\\"Logical/Program1/LocalFunctions.fun\\\" scope \\\"
 __asm__(".previous");
 
 
-#endif /* _BUR_1773308784_1_ */
+#endif /* _BUR_1773317924_5_ */
 

@@ -16,7 +16,7 @@
 	END_VAR
 
 	VAR_OUTPUT
-	output_Pwn : BOOL;
+	out: BOOL;
 	END_VAR
 
 END_FUNCTION_BLOCK

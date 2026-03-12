@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1773300699_2_
-#define _BUR_1773300699_2_
+#ifndef _BUR_1773317924_2_
+#define _BUR_1773317924_2_
 
 #include <bur/plctypes.h>
 
@@ -22,6 +22,7 @@ _GLOBAL plcbit output_4;
 _GLOBAL plcbit output_3;
 _GLOBAL plcbit output_2;
 _GLOBAL plcbit output_1;
+_GLOBAL plcbit input_3;
 _GLOBAL plcbit input_2;
 _GLOBAL plcbit input_1;
 
@@ -36,5 +37,5 @@ __asm__(".ascii \"iecfile \\\"Logical/Global.var\\\" scope \\\"global\\\"\\n\"")
 __asm__(".previous");
 
 
-#endif /* _BUR_1773300699_2_ */
+#endif /* _BUR_1773317924_2_ */
 

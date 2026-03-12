@@ -165,6 +165,7 @@
 </LN>
 <LN ID="%IX.IF6.ST1.DigitalInput03" Type="BOOL">
 <Prod Device="IF6.ST1" DPName="DigitalInput03" Kind="io"/>
+<Cons Device="TC#4-CPYDEV" DPName="::input_3" Kind="pv"/>
 </LN>
 <LN ID="%IX.IF6.ST1.DigitalInput04" Type="BOOL">
 <Prod Device="IF6.ST1" DPName="DigitalInput04" Kind="io"/>

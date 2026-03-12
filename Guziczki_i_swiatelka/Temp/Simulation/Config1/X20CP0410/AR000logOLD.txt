@@ -1,8 +1,16 @@
-12-03-2026 08:44:07 - COPYRIGHT (C) B&R Industrial Automation GmbH
-12-03-2026 08:44:07 - No ARsim registration found!
-12-03-2026 08:44:07 - InstanceName: 0000009d8d815551
-12-03-2026 08:44:07 - WorkingDirectory: C:\Praktyki\Guziczki i swiatelka\Guziczki_i_swiatelka\Temp\Simulation\Config1\X20CP0410\
-12-03-2026 08:44:07 - COMMAND_COLDSTART
-12-03-2026 08:44:09 - Version: 6.5.1
-12-03-2026 08:44:10 - Build: 2
-12-03-2026 08:45:23 - COMMAND_TERMINATE
+12-03-2026 12:10:58 - COPYRIGHT (C) B&R Industrial Automation GmbH
+12-03-2026 12:10:58 - No ARsim registration found!
+12-03-2026 12:10:58 - InstanceName: 0000001bfd6bc276
+12-03-2026 12:10:58 - WorkingDirectory: C:\Praktyki\Guziczki i swiatelka\Guziczki_i_swiatelka\Temp\Simulation\Config1\X20CP0410\
+12-03-2026 12:10:58 - COMMAND_COLDSTART
+12-03-2026 12:11:01 - Version: 6.5.1
+12-03-2026 12:11:01 - Build: 2
+12-03-2026 12:11:39 - COMMAND_TERMINATE
+12-03-2026 12:11:40 - COMMAND_COLDSTART
+12-03-2026 12:11:42 - Version: 6.5.1
+12-03-2026 12:11:42 - Build: 2
+12-03-2026 12:11:42 - COMMAND_TERMINATE
+12-03-2026 12:11:42 - COMMAND_COLDSTART
+12-03-2026 12:11:45 - Version: 6.5.1
+12-03-2026 12:11:45 - Build: 2
+12-03-2026 12:12:16 - COMMAND_TERMINATE

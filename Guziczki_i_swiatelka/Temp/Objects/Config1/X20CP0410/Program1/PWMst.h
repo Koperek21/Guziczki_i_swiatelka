@@ -83,6 +83,7 @@ struct PWM
 	plctime time_off;
 	struct TON timer_on;
 	struct TON timer_off;
-	plcbit output_Pwn;
+	plcbit input_PWM;
+	plcbit out;
 };
 void PWM(struct PWM* inst);

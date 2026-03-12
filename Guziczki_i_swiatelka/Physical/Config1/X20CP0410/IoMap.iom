@@ -7,4 +7,5 @@ VAR_CONFIG
 	output_4 AT %QX."X20DO6639".DigitalOutput04;
 	output_5 AT %QX."X20DO6639".DigitalOutput05;
 	output_6 AT %QX."X20DO6639".DigitalOutput06;
+	::input_3 AT %IX."X20DI9371".DigitalInput03;
 END_VAR

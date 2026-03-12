@@ -2,7 +2,6 @@ VAR
 	delay : TON;
 	i : INT;
 	start_delay : BOOL;
-	j : INT;
 	work : BOOL;
 	PWM_1 : PWM;
 END_VAR

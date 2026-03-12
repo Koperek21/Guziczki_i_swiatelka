@@ -70,31 +70,12 @@ PROGRAM _CYCLIC
 
 	END_CASE; 
 
-//	END_IF;
+	PWM_1(duty_cycle:=30,period:=T#1s,input_PWM:=input_3);
 	
-//	delay_off(IN :=end_delay,PT :=T#1s);//zagarek do wy³anczania
-	
-//	IF delay_off.Q AND delay_on.Q = FALSE THEN
-//		delay_off(IN:=TRUE);
-//		j := j+1;
-//	END_IF;
-//	
-//	CASE j OF//case do w³anczania
-//		1:
-//			output_6 := FALSE;
-//		2:
-//			output_5 := FALSE;
-//		3:
-//			output_4 := FALSE;
-//		4:
-//			output_3 := FALSE;
-//		5:
-//			output_2 := FALSE;
-//		6:
-//			output_1 := FALSE;
-//			j := 0;
-//
-//	END_CASE;
+	IF PWM_1.out = TRUE THEN
+		output_5 := TRUE;
+		output_6 := TRUE;
+	END_IF;
 
 END_PROGRAM
 
